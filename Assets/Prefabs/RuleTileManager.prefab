@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7582847563707556498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3243596316776131814}
+  - component: {fileID: 344089491190512809}
+  m_Layer: 0
+  m_Name: RuleTileManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3243596316776131814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7582847563707556498}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &344089491190512809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7582847563707556498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439cc53afcd6a9c45b9e6e0f9934694a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SandWaterTileSet:
+    _serializedList:
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 1
+        upperRightRequirement: 2
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: -1450300876, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 1
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 2
+      Value: {fileID: 1606711794, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 0
+        rightRequirement: 0
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: 4816186, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 1
+        upperCenterRequirement: 1
+        upperRightRequirement: 0
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: -1879844057, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 1
+        upperRightRequirement: 1
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: 517240082, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 1
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 2
+      Value: {fileID: -3495239, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 1
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 0
+      Value: {fileID: -2080804163, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 1
+      Value: {fileID: -996664369, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 0
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 2
+      Value: {fileID: -1490766359, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 0
+        upperRightRequirement: 2
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 2
+      Value: {fileID: 1822639787, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 0
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 2
+      Value: {fileID: 1139165976, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 1
+        upperCenterRequirement: 1
+        upperRightRequirement: 1
+        leftRequirement: 1
+        rightRequirement: 1
+        lowerLeftRequirement: 1
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 1
+      Value: {fileID: 1101861473, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 2
+      Value: {fileID: -863286631, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 0
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 2
+      Value: {fileID: 1707452536, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 1
+        blendType: 0
+        upperLeftRequirement: 1
+        upperCenterRequirement: 1
+        upperRightRequirement: 1
+        leftRequirement: 1
+        rightRequirement: 1
+        lowerLeftRequirement: 1
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 1
+      Value: {fileID: 845273100, guid: fc5757817e3eda645aafe280d068552e, type: 3}
+    - Key:
+        tileType: 1
+        blendType: 0
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 0
+        rightRequirement: 0
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: 21300000, guid: e8621c27f17f6844db75a4c51c66904f, type: 3}
+  GrassSandTileSet:
+    _serializedList:
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 1
+        upperRightRequirement: 2
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: -767066081, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 1
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 2
+      Value: {fileID: 877810121, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 0
+        rightRequirement: 0
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: -482860402, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 1
+        upperCenterRequirement: 1
+        upperRightRequirement: 0
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: 607414138, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 1
+        upperRightRequirement: 1
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: 1352183810, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 1
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 2
+      Value: {fileID: -6698414, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 1
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 0
+      Value: {fileID: -157665436, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 1
+      Value: {fileID: 513090415, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 0
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 2
+      Value: {fileID: 1433366459, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 0
+        upperRightRequirement: 2
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 2
+      Value: {fileID: 57278367, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 0
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 2
+      Value: {fileID: -344798234, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 1
+        upperCenterRequirement: 1
+        upperRightRequirement: 1
+        leftRequirement: 1
+        rightRequirement: 1
+        lowerLeftRequirement: 1
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 1
+      Value: {fileID: -391487050, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 2
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 1
+        rightRequirement: 0
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 2
+      Value: {fileID: 749988091, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 2
+        blendType: 1
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 2
+        leftRequirement: 0
+        rightRequirement: 1
+        lowerLeftRequirement: 2
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 2
+      Value: {fileID: -929464686, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 1
+        blendType: 2
+        upperLeftRequirement: 1
+        upperCenterRequirement: 1
+        upperRightRequirement: 1
+        leftRequirement: 1
+        rightRequirement: 1
+        lowerLeftRequirement: 1
+        lowerCenterRequirement: 1
+        lowerRightRequirement: 1
+      Value: {fileID: -2000662021, guid: 1fd0e02b58c9a6c44a4ff9218050bba0, type: 3}
+    - Key:
+        tileType: 1
+        blendType: 2
+        upperLeftRequirement: 0
+        upperCenterRequirement: 0
+        upperRightRequirement: 0
+        leftRequirement: 0
+        rightRequirement: 0
+        lowerLeftRequirement: 0
+        lowerCenterRequirement: 0
+        lowerRightRequirement: 0
+      Value: {fileID: 21300000, guid: e8621c27f17f6844db75a4c51c66904f, type: 3}
